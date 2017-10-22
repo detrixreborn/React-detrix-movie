@@ -1,0 +1,23 @@
+/* logo */
+.logo {
+  width: 100%;
+  max-width: 140px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  display: block;
+}
+.main__title {
+  display: block;
+  color: $limeGreen;
+  font-size: 1.6em;
+  line-height: 1.1em
+}
+
+
+// sm up
+@include media-breakpoint-up(sm) {
+  .logo {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
